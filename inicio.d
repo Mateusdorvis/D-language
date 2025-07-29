@@ -12,3 +12,9 @@ Após a compilação do código, no Linux rode :
 void main(){
    writeln("Olá mundo !"); //writeln() é uma função que imprime uma mensagem no console com quebra de linhas ou \n embutido, semelhante a função puts() do C que tem quebra de linha de embutido tamém
 }
+/* O código em D  é um pouco mais simples de entender  do que no C
+#include <stdio.h>
+int main(){
+  printf("Olá mundo !");
+  return 0;
+}
